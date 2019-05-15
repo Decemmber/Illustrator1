@@ -1,3 +1,155 @@
-body {
-    background-color: aqua;
+$sintonyR: 'Circe Regular';
+$georgia: 'Georgia Italic';
+$mColor: #00aeef;
+
+
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font: 1.65rem/1.2 Circe, sans-serif;
+    font-weight: 300;
+    font-family: $georgia;
+    font-size: 15px; 
+    color: #858585;
+  }
+
+  /*header*/
+.header {
+    height: 635px;
+    background-image: url(/img/header-bg.png);
+    background-size: cover;
+    background-position: 0 100%;
+    &__logo {
+        margin-top: 38px;
+        margin-bottom: 135px;
+    }
+    &__text {
+        font-size: 20px;
+        margin-top: 28px;
+        color: #91daf6;
+    }
+    &__guy {
+        position: absolute;
+        margin-top: 20px;
+    }
+
+}
+
+/*main content*/
+.main-content {
+    background-color: #fff;
+    margin-top: 55px;
+    &__title {
+        text-transform: uppercase;
+        font-size: 30px;
+        color: $mColor;
+        font-family: $sintonyR;
+    }
+    &__image {
+        height: 160px;
+        width: 270px;
+        border-radius: 5px;
+    }
+}
+
+.multiple-items {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.dots-style {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 30px;
+    button {
+        background-color: transparent;
+        border-radius: 50%;
+        border-color: $mColor;
+        font-size: 0; 
+        height: 15px;
+        width: 15px;
+        list-style: none;
+        margin-left: 15px;
+        background-origin: border-box;
+        margin-bottom: 50px;
+    }
+    li {
+        list-style: none;
+    }
+    li[class="slick-active"] button {
+        background: $mColor;
+        border: none;
+        width: 10px;
+        height: 10px;
+    }
+}
+
+/*About us*/
+.about {
+    &__title {
+        font-size: 30px;
+        color: $mColor;
+        font-family: $sintonyR;
+    }
+    &__text {
+        margin-bottom: 15px;
+    }
+    &__text_second {
+        margin-bottom: 50px;
+    }
+}
+
+/*footer*/
+.footer {
+    background-color: #151c27;
+    &__logo {
+        margin-top: 38px;
+        margin-bottom: 45px;
+    }
+    &__text {
+        color: #2c3b52;
+        margin-bottom: 28px;
+    }
+    &__input {
+        height: 70px;
+        width: 540px;
+        font-size: 20px;
+        font-family: $sintonyR;
+        color: #fff;
+        background-color: #080c11;
+        text-transform: uppercase;
+        padding-left: 30px;
+        margin-bottom: 217px;
+        &::placeholder {
+            color: #fff;
+            
+        }
+    }
+    &__button {
+       position: absolute;
+        left: 500px;
+        bottom: 240px;  
+    }
+    &__icons {
+        margin-top: 67px;
+    }
+    &__icons i {
+        font-size: 50px;
+        color: #fff;
+        margin-right: 20px;
+        transform: 0.3s;
+    }
+    &__icons i:hover {
+        color: $mColor;
+    }
+}
+
+.fa-envelope {
+    position: relative;
+    color: #fff;
+    font-size: 30px;
+    margin-left: 700px;
 }
