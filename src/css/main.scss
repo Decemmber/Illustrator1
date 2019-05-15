@@ -49,8 +49,8 @@ $mColor: #00aeef;
         font-family: $sintonyR;
     }
     &__image {
-        height: 160px;
-        width: 270px;
+        max-height: 160px;
+        max-width: 270px;
         border-radius: 5px;
     }
 }
@@ -115,7 +115,7 @@ $mColor: #00aeef;
     }
     &__input {
         height: 70px;
-        width: 540px;
+        width: 530px;
         font-size: 20px;
         font-family: $sintonyR;
         color: #fff;
@@ -152,4 +152,23 @@ $mColor: #00aeef;
     color: #fff;
     font-size: 30px;
     margin-left: 700px;
+}
+
+/*Scroll to top button*/
+#toTop {
+    z-index: 999;
+    width: 40px;
+    height: 40px;
+    border: none;
+    font-size: 20px;
+    border-radius: 3px;
+    background: $mColor;
+    text-align: center;
+    padding: 5px;
+    position: fixed;
+    bottom: 18px;
+    right: 18px;
+    display: none;
+    color: #000;
+    cursor: pointer;
 }

@@ -1,0 +1,123 @@
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+    .header {
+        height: 400px;
+        &__guy {
+            height: 300px;
+            top: 97px
+        }
+    }
+    .main-content__image {
+        max-height: 160px;
+        max-width: 220px;
+    }
+    .footer {
+        &__input {
+        margin-bottom: 20px;
+    }
+        &__icons {
+        margin-top: 0;
+        margin-bottom: 20px;
+    }
+        &__button {
+        position: absolute;
+        left: 500px;
+        bottom: 45px;  
+     }
+}
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .header {
+        height: 400px;
+        &__guy {
+            display: none;
+        }
+        &__logo {
+            margin-bottom: 90px;
+        }
+    }
+    .main-content__image {
+        max-width: 250px;
+    }
+    .footer {
+        &__input {
+        margin-bottom: 20px;
+    }
+        &__icons {
+        margin-top: 0;
+        margin-bottom: 20px;
+    }
+        &__button {
+        position: absolute;
+        left: 500px;
+        bottom: 45px;  
+     }
+    }
+    .dots-style button {
+        margin-bottom: 20px;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .header {
+        height: 400px;
+        &__guy {
+            display: none;
+        }
+        &__logo {
+            margin-bottom: 90px;
+        }
+    }
+    .main-content__image {
+        max-width: 226px;
+    }
+    .footer{
+        &__input {
+        height: 70px;
+        width: 400px;
+        margin-bottom: 100px;
+    }
+    &__icons {
+        margin-top: 0;
+        margin-bottom: 20px;
+    }
+    &__button {
+        position: absolute;
+        left: 370px;
+        bottom: 120px;  
+     }
+}
+}
+@media only screen and (max-width: 478px) {
+    .header {
+        height: 400px;
+        &__guy {
+            display: none;
+        }
+        &__logo {
+            margin-bottom: 90px;
+        }
+        &__title {
+            width: 390px;
+        }
+    }
+    .main-content__image {
+        max-width: 320px;
+    }
+    .footer {
+        &__input {
+        height: 70px;
+        width: 400px;
+        margin-bottom: 70px;
+        }
+        &__icons {
+        margin-top: 0;
+        margin-bottom: 20px;
+        }
+        &__button {
+            position: absolute;
+            left: 370px;
+            bottom: 95px;  
+        }      
+    }
+}
