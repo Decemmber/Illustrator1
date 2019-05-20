@@ -98,7 +98,7 @@
             margin-bottom: 90px;
         }
         &__title {
-            width: 390px;
+            width: 300px;
         }
     }
     .main-content__image {
@@ -106,8 +106,9 @@
     }
     .footer {
         &__input {
+        font-size: 15px;
         height: 70px;
-        width: 400px;
+        width: 320px;
         margin-bottom: 70px;
         }
         &__icons {
@@ -116,7 +117,7 @@
         }
         &__button {
             position: absolute;
-            left: 370px;
+            left: 280px;
             bottom: 95px;  
         }      
     }
