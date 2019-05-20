@@ -1,3 +1,4 @@
+/*slider*/
 $(document).ready(function() {
     $('.multiple-items').slick({
         lazyLoad: 'ondemand',
